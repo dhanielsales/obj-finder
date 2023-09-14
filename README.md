@@ -1,11 +1,11 @@
-# find-in-object
+# obj-getter
 
-A simple helper, with hard type, to get a value in an object by string, using the best of typescript.
+A simple helper, highly type, to get a value in an object by string, using the best of typescript.
 
 # Sample
 
 ```ts
-import { getByString } from 'get-in-object-by-string';
+import { getByString } from 'obj-getter';
 
 const obj = {
   a: {

@@ -1,10 +1,10 @@
 {
-  "name": "get-in-object-by-string",
-  "description": "A simple helper, with hard type, to get a value in an object by string.",
+  "name": "obj-getter",
+  "description": "A simple helper, highly type, to get a value in an object by string.",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:dhanielsales/get-in-object-by-string.git",
+  "repository": "git@github.com:dhanielsales/obj-getter.git",
   "author": "Dhaniel Sales <contact@dhanielsales.com.br>",
   "license": "ISC",
   "keywords": [
