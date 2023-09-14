@@ -16,7 +16,7 @@ const obj = {
   }
 };
 
-const value = findByString(obj, 'a.c.d'); 
+const value = findByString('a.c.d', obj); 
 // value has type 'string' 
 // 'a.b.d' is validated in type-check
 
