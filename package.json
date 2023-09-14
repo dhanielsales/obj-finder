@@ -1,15 +1,20 @@
 {
   "name": "find-in-object",
+  "description": "A simple helper, with hard type, to get a value in an object by string.",
   "version": "0.0.1",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:dhanielsales/find-in-object.git",
-  "author": "Dhaniel Sales <contact@dhanielsales.com>",
-  "license": "MIT",
-  "keywords": [],
+  "author": "Dhaniel Sales <contact@dhanielsales.com.br>",
+  "license": "ISC",
+  "keywords": [
+    "search",
+    "typescript",
+    "javascript",
+    "object"
+  ],
   "type": "module",
   "scripts": {
-    "dev": "tsx src/index.ts",
-    "start": "node dist/index.js",
     "build": "rollup -c rollup.config.js",
     "type-check": "tsc --pretty --noEmit",
     "format-check": "yarn eslint --quiet 'src/*/**/*.ts'"
@@ -19,6 +24,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/node": "^18.11.18",
     "rollup": "^3.10.1",
+    "tslib": "^2.6.2",
     "tsx": "^3.12.2",
     "typescript": "^4.9.4"
   },
