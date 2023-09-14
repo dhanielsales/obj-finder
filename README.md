@@ -15,7 +15,11 @@ const obj = {
   }
 }
 
-const value = findInObject(obj, 'a.c.d'); // value has type 'string' // 'a.b.d' is validated in type-check
+const value = findInObject(obj, 'a.c.d'); 
+// value has type 'string' 
+// 'a.b.d' is validated in type-check
+
+
 console.log(value)
 // Outputs:
 // 'mouse'
