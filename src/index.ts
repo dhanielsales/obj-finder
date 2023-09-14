@@ -14,7 +14,7 @@ type TypeAtPath<T, Path extends string> = Path extends `${infer Head}.${infer Ta
   ? T[Path]
   : never;
 
-export function findInObject<T, Path extends DeepKeys<T>>(
+export function getByString<T, Path extends DeepKeys<T>>(
   searchTerm: Path,
   object: T
 ): TypeAtPath<T, Path> {
